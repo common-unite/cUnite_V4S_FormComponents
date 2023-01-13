@@ -1,0 +1,31 @@
+minimum_cumulusci_version: '3.64.0'
+project:
+    name: cUnite_V4S_FormComponents
+    package:
+        name: "Flow Tool Kit: V4S Form Components"
+        api_version: '55.0'
+    dependencies:
+        - github: 'https://github.com/common-unite/FormBuilder_V4SF'
+    git:
+    source_format: sfdx
+
+tasks:
+    create_package_version:
+        options:
+            package_type: Unlocked
+            org_dependent: true
+
+    robot:
+        options:
+            suites: robot/cUnite_V4S_FormComponents/tests
+            options:
+                outputdir: robot/cUnite_V4S_FormComponents/results
+
+    robot_testdoc:
+        options:
+            path: robot/cUnite_V4S_FormComponents/tests
+            output: robot/cUnite_V4S_FormComponents/doc/cUnite_V4S_FormComponents_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75

@@ -1,8 +1,12 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
+      "path": "force-app-unlocked",
       "default": true
+    },
+    {
+      "path": "force-app",
+      "default": false
     }
   ],
   "name": "cUnite_V4S_FormComponents",

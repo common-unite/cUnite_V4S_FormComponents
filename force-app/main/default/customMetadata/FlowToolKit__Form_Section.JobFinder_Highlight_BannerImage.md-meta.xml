@@ -52,7 +52,7 @@
     </values>
     <values>
         <field>FlowToolKit__contentAssetName__c</field>
-        <value xsi:type="xsd:string">FlowToolKit__VolunteerGeneralMedium</value>
+        <value xsi:type="xsd:string">FlowToolKit_VolunteersHandsIn</value>
     </values>
     <values>
         <field>FlowToolKit__description__c</field>

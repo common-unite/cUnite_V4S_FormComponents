@@ -108,7 +108,7 @@
     </values>
     <values>
         <field>FlowToolKit__imageOverrideFieldApiName__c</field>
-        <value xsi:type="xsd:string">FlowToolKit__Banner_Image__c</value>
+        <value xsi:type="xsd:string">cUnite_Banner_Image_URL__c</value>
     </values>
     <values>
         <field>FlowToolKit__marginBottom__c</field>
@@ -142,10 +142,10 @@
         <field>FlowToolKit__richText__c</field>
         <value xsi:type="xsd:string">&lt;div class=&quot;slds-align_absolute-center slds-container_fluid slds-is-relative&quot; style=&quot;height:100%&quot;&gt;
 
-    {{Job_Finder_Badge_Open_to_Groups__c}}
+    {{cUnite_Job_Finder_Badge_Open_to_Groups__c}}
 
 &lt;h2 class=&quot;slds-text-heading_Large volunteer-banner-title&quot; style=&quot;color:white&quot;&gt;
-    {{FlowToolKit__Type__c}}
+    {{FlowToolKit__cUnite_Type__c}}
 &lt;/h2&gt;
 
 &lt;/div&gt;</value>

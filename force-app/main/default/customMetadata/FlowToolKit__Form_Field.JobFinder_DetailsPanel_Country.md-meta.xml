@@ -156,7 +156,7 @@
     </values>
     <values>
         <field>FlowToolKit__fieldName__c</field>
-        <value xsi:type="xsd:string">FlowToolKit__Location_Country__c</value>
+        <value xsi:type="xsd:string">FlowToolKit__cUnite_Location_Country__c</value>
     </values>
     <values>
         <field>FlowToolKit__fieldPrompt__c</field>

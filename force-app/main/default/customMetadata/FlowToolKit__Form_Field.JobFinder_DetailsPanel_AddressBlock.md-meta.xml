@@ -120,7 +120,7 @@
     </values>
     <values>
         <field>FlowToolKit__customLabel__c</field>
-        <value xsi:type="xsd:string">&lt;p class=&quot;slds-text-heading_medium&quot;&gt;{{FlowToolKit__Location_Name__c}}&lt;/p&gt;</value>
+        <value xsi:type="xsd:string">&lt;p class=&quot;slds-text-heading_medium&quot;&gt;{{FlowToolKit__cUnite_Location_Name__c}}&lt;/p&gt;</value>
     </values>
     <values>
         <field>FlowToolKit__customLookupHeader__c</field>

@@ -156,7 +156,7 @@
     </values>
     <values>
         <field>FlowToolKit__fieldName__c</field>
-        <value xsi:type="xsd:string">FlowToolKit__Volunteer_Types__c</value>
+        <value xsi:type="xsd:string">FlowToolKit__cUnite_Volunteer_Types__c</value>
     </values>
     <values>
         <field>FlowToolKit__fieldPrompt__c</field>

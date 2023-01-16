@@ -5,6 +5,7 @@
       <configuration>
         <option name="connectionName" value="cUnite_V4S_FormComponents__dev" />
         <option name="connectionType" value="SFDX" />
+        <option name="defaultSourceRootUrl" value="file://$MODULE_DIR$/force-app/main/default" />
       </configuration>
     </facet>
   </component>

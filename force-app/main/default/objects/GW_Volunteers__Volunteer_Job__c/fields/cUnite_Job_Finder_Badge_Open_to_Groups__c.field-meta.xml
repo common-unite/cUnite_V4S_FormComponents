@@ -3,7 +3,7 @@
     <fullName>cUnite_Job_Finder_Badge_Open_to_Groups__c</fullName>
     <description>Use this HTML output within your form components to display a badge/tag with the label &quot;Open to Groups!&quot;</description>
     <externalId>false</externalId>
-    <formula>if(Not(INCLUDES(FlowToolKit__Volunteer_Types__c,&apos;Groups&apos;)),&apos;&apos;,
+    <formula>if(Not(INCLUDES(FlowToolKit__cUnite_Volunteer_Types__c,&apos;Groups&apos;)),&apos;&apos;,
 
 /*** You can Customize the HTML and CSS below ***/
 

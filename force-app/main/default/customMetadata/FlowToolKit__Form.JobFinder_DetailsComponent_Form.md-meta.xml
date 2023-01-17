@@ -28,7 +28,7 @@
     </values>
     <values>
         <field>FlowToolKit__Theme__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">cUnite_Volunteer_Forms_Theme</value>
     </values>
     <values>
         <field>FlowToolKit__displaySectionsAsAccordion__c</field>

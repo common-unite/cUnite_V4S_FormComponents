@@ -152,7 +152,7 @@
     </values>
     <values>
         <field>FlowToolKit__showHeader__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>FlowToolKit__subtitle__c</field>

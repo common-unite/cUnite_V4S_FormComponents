@@ -3,6 +3,10 @@
     <label>Divider</label>
     <protected>false</protected>
     <values>
+        <field>FlowToolKit__Custom_CSS_Style__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__Default_Table_Form__c</field>
         <value xsi:nil="true"/>
     </values>
@@ -12,11 +16,11 @@
     </values>
     <values>
         <field>FlowToolKit__Delete__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">JobFinder_DetailsPanel_Form</value>
+        <value xsi:type="xsd:string">Volunteer_Application_Waiver</value>
     </values>
     <values>
         <field>FlowToolKit__PreventDelete__c</field>
@@ -88,7 +92,7 @@
     </values>
     <values>
         <field>FlowToolKit__horizontalPadding__c</field>
-        <value xsi:type="xsd:string">slds-p-horizontal_none</value>
+        <value xsi:type="xsd:string">slds-p-horizontal_xx-small</value>
     </values>
     <values>
         <field>FlowToolKit__iconColor__c</field>
@@ -104,7 +108,7 @@
     </values>
     <values>
         <field>FlowToolKit__imageOverlayOpacity__c</field>
-        <value xsi:type="xsd:double">0.0</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__imageOverrideFieldApiName__c</field>
@@ -112,7 +116,7 @@
     </values>
     <values>
         <field>FlowToolKit__marginBottom__c</field>
-        <value xsi:type="xsd:string">slds-m-bottom_small</value>
+        <value xsi:type="xsd:string">slds-m-bottom_xx-small</value>
     </values>
     <values>
         <field>FlowToolKit__marginTop__c</field>
@@ -132,11 +136,11 @@
     </values>
     <values>
         <field>FlowToolKit__paddingTop__c</field>
-        <value xsi:type="xsd:string">slds-p-top_xx-small</value>
+        <value xsi:type="xsd:string">slds-p-top_xxx-small</value>
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">3.0</value>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>

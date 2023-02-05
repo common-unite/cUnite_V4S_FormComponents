@@ -3,6 +3,10 @@
     <label>Job Details</label>
     <protected>false</protected>
     <values>
+        <field>FlowToolKit__Custom_CSS_Style__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__Default_Table_Form__c</field>
         <value xsi:nil="true"/>
     </values>

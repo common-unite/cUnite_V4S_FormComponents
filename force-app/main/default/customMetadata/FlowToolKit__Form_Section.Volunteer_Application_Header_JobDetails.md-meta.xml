@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>{{Name}}</label>
+    <label>Job Details</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Custom_CSS_Style__c</field>
-        <value xsi:type="xsd:string">margin-bottom:-10%</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__Default_Table_Form__c</field>
@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">JobFinder_DetailsComponent_Form</value>
+        <value xsi:type="xsd:string">Volunteer_Application_Header</value>
     </values>
     <values>
         <field>FlowToolKit__PreventDelete__c</field>
@@ -28,7 +28,7 @@
     </values>
     <values>
         <field>FlowToolKit__Theme__c</field>
-        <value xsi:type="xsd:string">cUnite_Volunteer_Forms_Alternate_Theme</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__accordionOpen__c</field>
@@ -56,7 +56,7 @@
     </values>
     <values>
         <field>FlowToolKit__contentAssetName__c</field>
-        <value xsi:type="xsd:string">FlowToolKit_VolunteersHandsIn</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__description__c</field>
@@ -72,7 +72,7 @@
     </values>
     <values>
         <field>FlowToolKit__enableAccordion__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>FlowToolKit__fontColor__c</field>
@@ -92,7 +92,7 @@
     </values>
     <values>
         <field>FlowToolKit__horizontalPadding__c</field>
-        <value xsi:type="xsd:string">slds-p-horizontal_none</value>
+        <value xsi:type="xsd:string">slds-p-horizontal_xx-small</value>
     </values>
     <values>
         <field>FlowToolKit__iconColor__c</field>
@@ -104,23 +104,23 @@
     </values>
     <values>
         <field>FlowToolKit__imageOverlayColor__c</field>
-        <value xsi:type="xsd:string">#FFFFFF</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__imageOverlayOpacity__c</field>
-        <value xsi:type="xsd:double">0.0</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__imageOverrideFieldApiName__c</field>
-        <value xsi:type="xsd:string">cUnite_Banner_Image_URL__c</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__marginBottom__c</field>
-        <value xsi:type="xsd:string">slds-m-bottom_x-small</value>
+        <value xsi:type="xsd:string">slds-m-bottom_none</value>
     </values>
     <values>
         <field>FlowToolKit__marginTop__c</field>
-        <value xsi:type="xsd:string">slds-m-top_x-small</value>
+        <value xsi:type="xsd:string">slds-m-top_none</value>
     </values>
     <values>
         <field>FlowToolKit__paddingBottom__c</field>
@@ -128,11 +128,11 @@
     </values>
     <values>
         <field>FlowToolKit__paddingLeft__c</field>
-        <value xsi:type="xsd:string">slds-p-left_x-small</value>
+        <value xsi:type="xsd:string">slds-p-left_none</value>
     </values>
     <values>
         <field>FlowToolKit__paddingRight__c</field>
-        <value xsi:type="xsd:string">slds-p-right_x-small</value>
+        <value xsi:type="xsd:string">slds-p-right_none</value>
     </values>
     <values>
         <field>FlowToolKit__paddingTop__c</field>
@@ -140,7 +140,7 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">1.0</value>
+        <value xsi:type="xsd:double">2.0</value>
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>
@@ -148,11 +148,11 @@
     </values>
     <values>
         <field>FlowToolKit__sectionTheme__c</field>
-        <value xsi:type="xsd:string">shadow</value>
+        <value xsi:type="xsd:string">clean</value>
     </values>
     <values>
         <field>FlowToolKit__sectionType__c</field>
-        <value xsi:type="xsd:string">imageSection</value>
+        <value xsi:type="xsd:string">inputSection</value>
     </values>
     <values>
         <field>FlowToolKit__showHeader__c</field>
@@ -160,11 +160,11 @@
     </values>
     <values>
         <field>FlowToolKit__subtitle__c</field>
-        <value xsi:type="xsd:string">{{FlowToolKit__cUnite_Type__c}}</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__title__c</field>
-        <value xsi:type="xsd:string">{{Name}}</value>
+        <value xsi:type="xsd:string">Job Details</value>
     </values>
     <values>
         <field>FlowToolKit__viewAsPlainText__c</field>

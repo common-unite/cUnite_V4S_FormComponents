@@ -3,6 +3,10 @@
     <label>Job Location</label>
     <protected>false</protected>
     <values>
+        <field>FlowToolKit__Custom_CSS_Style__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__Default_Table_Form__c</field>
         <value xsi:nil="true"/>
     </values>
@@ -96,7 +100,7 @@
     </values>
     <values>
         <field>FlowToolKit__iconName__c</field>
-        <value xsi:type="xsd:string">utility:location</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__imageOverlayColor__c</field>
@@ -156,7 +160,7 @@
     </values>
     <values>
         <field>FlowToolKit__subtitle__c</field>
-        <value xsi:type="xsd:string">This is where the job will take place.</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__title__c</field>

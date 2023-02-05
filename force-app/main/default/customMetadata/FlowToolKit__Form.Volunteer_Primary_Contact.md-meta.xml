@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Job Highlight</label>
+    <label>Volunteer Form | Primary Contact</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Active__c</field>
@@ -16,15 +16,15 @@
     </values>
     <values>
         <field>FlowToolKit__Description__c</field>
-        <value xsi:type="xsd:string">Use this component with the Job Finder to display selectable Volunteer Jobs.</value>
+        <value xsi:type="xsd:string">This is a simple contact form for collecting volunteer information.</value>
     </values>
     <values>
         <field>FlowToolKit__Form_Managers__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">0054W000008PXY1QAO</value>
     </values>
     <values>
         <field>FlowToolKit__Form_Object__c</field>
-        <value xsi:type="xsd:string">Volunteer_Job</value>
+        <value xsi:type="xsd:string">Contact</value>
     </values>
     <values>
         <field>FlowToolKit__Theme__c</field>

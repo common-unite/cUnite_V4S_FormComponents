@@ -3,6 +3,10 @@
     <label>Job Details</label>
     <protected>false</protected>
     <values>
+        <field>FlowToolKit__Custom_CSS_Style__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__Default_Table_Form__c</field>
         <value xsi:nil="true"/>
     </values>
@@ -112,7 +116,7 @@
     </values>
     <values>
         <field>FlowToolKit__marginBottom__c</field>
-        <value xsi:type="xsd:string">slds-m-bottom_small</value>
+        <value xsi:type="xsd:string">slds-m-bottom_medium</value>
     </values>
     <values>
         <field>FlowToolKit__marginTop__c</field>
@@ -124,11 +128,11 @@
     </values>
     <values>
         <field>FlowToolKit__paddingLeft__c</field>
-        <value xsi:type="xsd:string">slds-p-left_none</value>
+        <value xsi:type="xsd:string">slds-p-left_small</value>
     </values>
     <values>
         <field>FlowToolKit__paddingRight__c</field>
-        <value xsi:type="xsd:string">slds-p-right_none</value>
+        <value xsi:type="xsd:string">slds-p-right_small</value>
     </values>
     <values>
         <field>FlowToolKit__paddingTop__c</field>
@@ -140,7 +144,7 @@
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>
-        <value xsi:type="xsd:string">&lt;p&gt;&lt;a href=&quot;{{cUnite_Job_Finder_Campaign_URL__c}}&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 11px;&quot;&gt;{{cUnite_Job_Finder_Campaign_Event_Name__c}}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;{{Name}}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;{{FlowToolKit__cUnite_Location_Name__c}}&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;{{FlowToolKit__cUnite_Shift_Range__c}}&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: right;&quot;&gt;{{FlowToolKit__cUnite_Shift_Day_of_the_Week_Badge__c}}&lt;/p&gt;</value>
+        <value xsi:type="xsd:string">&lt;p&gt;&lt;a style=&quot;font-size: 11px;&quot; rel=&quot;noopener noreferrer&quot; href=&quot;{{cUnite_Job_Finder_Campaign_URL__c}}&quot;&gt;{{cUnite_Job_Finder_Campaign_Event_Name__c}}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;{{Name}}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;@ {{FlowToolKit__cUnite_Location_Name__c}}&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;{{GW_Volunteers__Location_City__c}}, {{GW_Volunteers__Location__c}} {{GW_Volunteers__Location_Zip_Postal_Code__c}}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;{{FlowToolKit__cUnite_Shift_Range__c}}&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: right;&quot;&gt;{{FlowToolKit__cUnite_Shift_Day_of_the_Week_Badge__c}}&lt;/p&gt;</value>
     </values>
     <values>
         <field>FlowToolKit__sectionTheme__c</field>

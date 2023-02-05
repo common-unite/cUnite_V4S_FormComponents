@@ -7,7 +7,7 @@
 
 /*** You can Customize the HTML and CSS below ***/
 
-&apos;&lt;span style=&quot;top:0; left:0; font-size:0.6rem;&quot; class=&quot;slds-is-absolute slds-badge slds-badge_light&quot;&gt;Open to Groups!&lt;/span&gt;&apos;
+&apos;&lt;span style=&quot;top:10px; left:10px; font-size:0.6rem;&quot; class=&quot;slds-is-absolute slds-badge slds-badge_light&quot;&gt;Open to Groups!&lt;/span&gt;&apos;
 
 )</formula>
     <label>Job Finder Badge (Open to Groups)</label>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Volunteer Forms Theme</label>
+    <label>Volunteer Forms Alternate Theme</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Delete__c</field>
@@ -16,7 +16,7 @@
     </values>
     <values>
         <field>FlowToolKit__accordionBackgroundColor__c</field>
-        <value xsi:type="xsd:string">#939393</value>
+        <value xsi:type="xsd:string">#042d60</value>
     </values>
     <values>
         <field>FlowToolKit__accordionFontColor__c</field>
@@ -24,11 +24,11 @@
     </values>
     <values>
         <field>FlowToolKit__borderColor__c</field>
-        <value xsi:type="xsd:string">#45c65a</value>
+        <value xsi:type="xsd:string">#042d60</value>
     </values>
     <values>
         <field>FlowToolKit__borderRadius__c</field>
-        <value xsi:type="xsd:double">0.25</value>
+        <value xsi:type="xsd:double">4.5</value>
     </values>
     <values>
         <field>FlowToolKit__borderSize__c</field>
@@ -52,7 +52,7 @@
     </values>
     <values>
         <field>FlowToolKit__headingBackgroundColor__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">#514f4d</value>
     </values>
     <values>
         <field>FlowToolKit__headingBackgroundImagePosition__c</field>
@@ -68,19 +68,19 @@
     </values>
     <values>
         <field>FlowToolKit__headingFontColor__c</field>
-        <value xsi:type="xsd:string">#032d60</value>
+        <value xsi:type="xsd:string">#FFFFFF</value>
     </values>
     <values>
         <field>FlowToolKit__headingIconColor__c</field>
-        <value xsi:type="xsd:string">#514f4d</value>
+        <value xsi:type="xsd:string">#45c65a</value>
     </values>
     <values>
         <field>FlowToolKit__headingSubtitleFontColor__c</field>
-        <value xsi:type="xsd:string">#514f4d</value>
+        <value xsi:type="xsd:string">#FFFFFF</value>
     </values>
     <values>
         <field>FlowToolKit__promptColor__c</field>
-        <value xsi:type="xsd:string">#032d60</value>
+        <value xsi:type="xsd:string">#042d60</value>
     </values>
     <values>
         <field>FlowToolKit__promptFontColor__c</field>

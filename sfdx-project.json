@@ -3,10 +3,6 @@
     {
       "path": "force-app",
       "default": true
-    },
-    {
-      "path": "force-app-unlocked",
-      "default": false
     }
   ],
   "name": "cUnite_V4S_FormComponents",

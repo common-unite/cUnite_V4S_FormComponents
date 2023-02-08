@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>cUnite_Volunteers_Lightning</application>
+        <visible>true</visible>
+    </applicationVisibilities>
     <classAccesses>
         <apexClass>FlowToolKit__VolunteerHours_PreventDupes_Invocable</apexClass>
         <enabled>true</enabled>

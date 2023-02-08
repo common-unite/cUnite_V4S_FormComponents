@@ -6,6 +6,12 @@
         <option name="connectionName" value="cUnite_V4S_FormComponents__dev" />
         <option name="connectionType" value="SFDX" />
         <option name="defaultSourceRootUrl" value="file://$MODULE_DIR$/force-app-unlocked/main/default" />
+        <option name="moduleContents">
+          <ModuleContents>
+            <option name="contentSelectionType" value="PACKAGE_XML" />
+            <option name="packageXmlRelativePath" value="manifest/package.xml" />
+          </ModuleContents>
+        </option>
       </configuration>
     </facet>
   </component>

@@ -14,8 +14,13 @@
     </classAccesses>
     <description>This user can manage the objects and fields that control the Volunteer Job Finder and sign up for forms.</description>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.FlowToolKit__cUnite_Volunteer_Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.cUnite_Is_Volunteer_Group__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -89,7 +94,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -114,7 +119,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Volunteer_Shift__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -126,6 +131,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>GW_Volunteers__Volunteer_Hours__c.cUnite_Electronic_Signature__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>GW_Volunteers__Volunteer_Hours__c.cUnite_Volunteer_Group__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

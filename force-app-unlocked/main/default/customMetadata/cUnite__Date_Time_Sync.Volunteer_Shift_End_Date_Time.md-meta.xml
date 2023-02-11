@@ -84,7 +84,7 @@
     </values>
     <values>
         <field>cUnite__Time_Zone_Override_Field__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">cUnite_Volunteer_Website_Time_Zone__c</value>
     </values>
     <values>
         <field>cUnite__Time_Zone_Override__c</field>

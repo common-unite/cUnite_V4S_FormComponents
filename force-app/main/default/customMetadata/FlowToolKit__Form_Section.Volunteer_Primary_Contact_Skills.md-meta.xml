@@ -144,9 +144,7 @@
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>
-        <value xsi:type="xsd:string">&lt;h1 class=&quot;page-heading&quot; style=&quot;margin-bottom:0&quot;&gt;
-Help us match you with the best opportunities
-&lt;/h1&gt;</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__sectionTheme__c</field>

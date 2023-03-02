@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Volunteer Waiver</label>
+    <label>Volunteer Waiver &amp; Agreement</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Custom_CSS_Style__c</field>
@@ -32,7 +32,7 @@
     </values>
     <values>
         <field>FlowToolKit__accordionOpen__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>FlowToolKit__backgroundColor__c</field>
@@ -140,11 +140,11 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">3.0</value>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>
-        <value xsi:type="xsd:string">&lt;p&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Vestibulum laoreet nunc nibh, vitae convallis dui hendrerit quis. Phasellus viverra mollis ex, et aliquam tellus imperdiet a. Donec aliquet pellentesque arcu in vulputate. Phasellus consequat a purus non sodales. Phasellus rhoncus dui orci, euismod mollis neque cursus vitae. Nullam auctor nulla in purus ornare gravida. Sed est metus, gravida ac massa in, lobortis semper turpis. Aliquam gravida ipsum non massa pharetra, vel tempor lectus cursus. Donec feugiat dolor diam, sit amet porta elit lacinia at. Sed tempus ipsum quis congue posuere.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Nunc vestibulum pretium nibh varius accumsan. Ut a fringilla lectus, nec placerat felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis hendrerit fermentum volutpat. Suspendisse venenatis at odio eget blandit. In eleifend bibendum est, lobortis laoreet odio consectetur luctus. Proin rhoncus nulla sed nisl congue, at dignissim nisl varius. Praesent non volutpat mi. Aenean viverra lobortis dolor, nec tristique augue porttitor eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris gravida sem nec neque vulputate, vitae feugiat mi semper. Vivamus a felis hendrerit risus consequat iaculis. Quisque tempor ligula at felis maximus, eu fringilla mauris eleifend. Proin interdum tincidunt lacinia.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Etiam efficitur, magna eu eleifend tincidunt, quam mauris interdum sapien, condimentum venenatis enim tellus ut velit. Fusce vitae commodo ipsum. Donec eget consectetur velit. Nam dapibus mi ante, quis egestas enim vestibulum sed. Nulla vel finibus urna. Ut malesuada rutrum urna, a mollis lectus lobortis ut. Duis sagittis volutpat orci ac congue. Vivamus mollis ipsum vitae feugiat bibendum. Cras facilisis faucibus nunc, eu lacinia massa finibus a. Sed in nunc ac tellus rhoncus blandit. Quisque efficitur, velit ac interdum condimentum, nisi risus dictum mi, in ornare velit tortor vel lorem. Donec eros tortor, congue quis felis at, lobortis fermentum justo. Morbi blandit purus a neque sodales, vel volutpat est tristique. Pellentesque in laoreet arcu. Mauris ac enim sed lacus luctus ultrices. Pellentesque sodales iaculis gravida.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</value>
+        <value xsi:type="xsd:string">&lt;p&gt;This waiver and release of liability (“Waiver”) are made for {{FirstName}} {{LastName}} (“Volunteer”) in favor of &lt;strong&gt;Common-Unite&lt;/strong&gt;, a Missouri non-profit corporation (“Organization”).&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Purpose of Volunteer Services&lt;/strong&gt;: Volunteer is participating in activities as a volunteer for the Organization and acknowledges that the Volunteer Services may include, but are not limited to, the following tasks: manual labor and office support.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Release of Liability&lt;/strong&gt;: Volunteer acknowledges that the Volunteer Services may involve certain risks, including but not limited to physical or emotional injury, property damage, or death, and Volunteer assumes all such risks. Volunteer agrees to hold harmless, release, indemnify, and defend the Organization, its officers, directors, employees, agents, and representatives (collectively, the “Released Parties”) from and against any and all claims, demands, damages, costs, expenses, and liability of any kind arising out of or in connection with Volunteer’s participation in the Volunteer Services, including but not limited to any injury or damage to Volunteer or Volunteer’s property.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Medical Treatment&lt;/strong&gt;: Volunteer hereby grants permission to the Organization to authorize and obtain any medical treatment deemed necessary for Volunteer in the event of an emergency arising during Volunteer’s participation in the Volunteer Services. Volunteer acknowledges that the Organization is not responsible for the payment of any medical treatment or related expenses.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Photographic Release&lt;/strong&gt;: Volunteer grants to the Organization the right to use and publish photographs of Volunteer, or in which Volunteer may be included, for editorial, trade, advertising, and any other purpose and in any manner and medium; to alter the same without restriction; and to copyright the same. Volunteer hereby releases the Organization and its legal representatives and assigns from all claims and liability relating to said photographs.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Governing Law&lt;/strong&gt;: This Waiver shall be governed by the laws of the state of Missouri.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Entire Agreement&lt;/strong&gt;: This Waiver constitutes the entire agreement between the parties and supersedes all prior negotiations, understandings, and agreements, whether written or oral.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Amendments&lt;/strong&gt;: This Waiver may not be amended except in writing, signed by both Volunteer and the Organization.&lt;/p&gt;</value>
     </values>
     <values>
         <field>FlowToolKit__sectionTheme__c</field>
@@ -164,7 +164,7 @@
     </values>
     <values>
         <field>FlowToolKit__title__c</field>
-        <value xsi:type="xsd:string">Volunteer Waiver</value>
+        <value xsi:type="xsd:string">Volunteer Waiver &amp; Agreement</value>
     </values>
     <values>
         <field>FlowToolKit__viewAsPlainText__c</field>

@@ -279,6 +279,10 @@
         <value xsi:nil="true"/>
     </values>
     <values>
+        <field>FlowToolKit__phoneMask__c</field>
+        <value xsi:type="xsd:string">(xxx) xxx-xxxx</value>
+    </values>
+    <values>
         <field>FlowToolKit__picklistColumnsSize__c</field>
         <value xsi:type="xsd:string">none</value>
     </values>
@@ -292,7 +296,7 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">2.0</value>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>FlowToolKit__prepend__c</field>
@@ -360,11 +364,11 @@
     </values>
     <values>
         <field>FlowToolKit__widthLarge__c</field>
-        <value xsi:type="xsd:string">12</value>
+        <value xsi:type="xsd:string">3</value>
     </values>
     <values>
         <field>FlowToolKit__widthMedium__c</field>
-        <value xsi:type="xsd:string">12</value>
+        <value xsi:type="xsd:string">3</value>
     </values>
     <values>
         <field>FlowToolKit__widthSmall__c</field>

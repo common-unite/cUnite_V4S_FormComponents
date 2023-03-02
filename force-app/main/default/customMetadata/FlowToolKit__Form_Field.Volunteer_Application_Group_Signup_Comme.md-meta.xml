@@ -279,6 +279,10 @@
         <value xsi:nil="true"/>
     </values>
     <values>
+        <field>FlowToolKit__phoneMask__c</field>
+        <value xsi:type="xsd:string">(xxx) xxx-xxxx</value>
+    </values>
+    <values>
         <field>FlowToolKit__picklistColumnsSize__c</field>
         <value xsi:type="xsd:string">none</value>
     </values>

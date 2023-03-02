@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>New Volunteer Group</label>
+    <label>Mailing Address</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Custom_CSS_Style__c</field>
@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">Volunteer_New_Volunter_Group</value>
+        <value xsi:type="xsd:string">Volunteer_Primary_Contact</value>
     </values>
     <values>
         <field>FlowToolKit__PreventDelete__c</field>
@@ -32,7 +32,7 @@
     </values>
     <values>
         <field>FlowToolKit__accordionOpen__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>FlowToolKit__backgroundColor__c</field>
@@ -72,7 +72,7 @@
     </values>
     <values>
         <field>FlowToolKit__enableAccordion__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>FlowToolKit__fontColor__c</field>
@@ -100,7 +100,7 @@
     </values>
     <values>
         <field>FlowToolKit__iconName__c</field>
-        <value xsi:type="xsd:string">utility:groups</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__imageOverlayColor__c</field>
@@ -140,7 +140,7 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">2.0</value>
+        <value xsi:type="xsd:double">5.0</value>
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>
@@ -152,19 +152,19 @@
     </values>
     <values>
         <field>FlowToolKit__sectionType__c</field>
-        <value xsi:type="xsd:string">inputSection</value>
+        <value xsi:type="xsd:string">addressSection</value>
     </values>
     <values>
         <field>FlowToolKit__showHeader__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>FlowToolKit__subtitle__c</field>
-        <value xsi:type="xsd:string">Don&apos;t see your volunteer organization?</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__title__c</field>
-        <value xsi:type="xsd:string">New Volunteer Group</value>
+        <value xsi:type="xsd:string">Mailing Address</value>
     </values>
     <values>
         <field>FlowToolKit__viewAsPlainText__c</field>

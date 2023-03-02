@@ -124,11 +124,11 @@
     </values>
     <values>
         <field>FlowToolKit__customLookupHeader__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">Search for your Volunteer Group</value>
     </values>
     <values>
         <field>FlowToolKit__customLookupSubheader__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">If you cannot find your volunteer group click &quot;Add New Volunteer Group&quot; to add your group</value>
     </values>
     <values>
         <field>FlowToolKit__customValidationMessage__c</field>
@@ -277,6 +277,10 @@
     <values>
         <field>FlowToolKit__parentSobjectName__c</field>
         <value xsi:type="xsd:string">Account</value>
+    </values>
+    <values>
+        <field>FlowToolKit__phoneMask__c</field>
+        <value xsi:type="xsd:string">(xxx) xxx-xxxx</value>
     </values>
     <values>
         <field>FlowToolKit__picklistColumnsSize__c</field>

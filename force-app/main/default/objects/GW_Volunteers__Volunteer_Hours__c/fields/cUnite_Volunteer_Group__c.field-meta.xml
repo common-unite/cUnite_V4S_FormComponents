@@ -9,7 +9,7 @@
         <active>true</active>
         <errorMessage>Account must be a &quot;Volunteer Group&quot;</errorMessage>
         <filterItems>
-            <field>Account.cUnite_Is_Volunteer_Group__c</field>
+            <field>Account.FlowToolKit__cUnite_Is_Volunteer_Group__c</field>
             <operation>equals</operation>
             <value>True</value>
         </filterItems>

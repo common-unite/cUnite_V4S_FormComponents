@@ -84,7 +84,7 @@
                 <identifier>flowruntime_interview</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-lgcworq598</name>
+        <name>Facet-be9e1011-78ca-449f-8e4e-6830ae9516bc</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -124,14 +124,14 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-lgcworq598</value>
+                    <value>Facet-be9e1011-78ca-449f-8e4e-6830ae9516bc</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
                     <value>Registration Form</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
-                <identifier>flexipage_tab2</identifier>
+                <identifier>flexipage_tab</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -157,24 +157,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>fieldApiName</name>
-                    <value>cUnite_Banner_Image__c</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>selectorLabel</name>
-                    <value>Select Banner Image</value>
-                </componentInstanceProperties>
-                <componentName>FlowToolKit:formImageSelector</componentName>
-                <identifier>FlowToolKit_formImageSelector</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-aa1f17e2-5d84-4511-b049-a52d0f01308b</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
                     <name>showLegacyActivityComposer</name>
                     <value>false</value>
                 </componentInstanceProperties>
@@ -192,24 +174,6 @@
                 <componentInstanceProperties>
                     <name>active</name>
                     <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-aa1f17e2-5d84-4511-b049-a52d0f01308b</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>title</name>
-                    <value>Customize Form</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:tab</componentName>
-                <identifier>flexipage_tab</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>active</name>
-                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>body</name>
@@ -242,9 +206,9 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Volunteer Job Record Page</masterLabel>
+    <masterLabel>Volunteer Shift Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>GW_Volunteers__Volunteer_Job__c</sobjectType>
+    <sobjectType>GW_Volunteers__Volunteer_Shift__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>

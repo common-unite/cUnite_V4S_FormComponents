@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Email</label>
+    <label>Mailing Address</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Delete__c</field>
@@ -8,19 +8,19 @@
     </values>
     <values>
         <field>FlowToolKit__Form_Section__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Lead_ContactFields</value>
+        <value xsi:type="xsd:string">Volunteer_Primary_Contact_Address</value>
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Lead_Qaulification</value>
+        <value xsi:type="xsd:string">Volunteer_Primary_Contact</value>
     </values>
     <values>
         <field>FlowToolKit__Object__c</field>
-        <value xsi:type="xsd:string">Lead</value>
+        <value xsi:type="xsd:string">Contact</value>
     </values>
     <values>
         <field>FlowToolKit__addressFieldType__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">Address</value>
     </values>
     <values>
         <field>FlowToolKit__alignAbsoluteCenter__c</field>
@@ -108,7 +108,7 @@
     </values>
     <values>
         <field>FlowToolKit__conditionalLogic__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Is_Minor</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__currencyCode__c</field>
@@ -144,7 +144,7 @@
     </values>
     <values>
         <field>FlowToolKit__displayType__c</field>
-        <value xsi:type="xsd:string">REQUIRED</value>
+        <value xsi:type="xsd:string">SHOW</value>
     </values>
     <values>
         <field>FlowToolKit__enableCustomLookup__c</field>
@@ -156,7 +156,7 @@
     </values>
     <values>
         <field>FlowToolKit__fieldName__c</field>
-        <value xsi:type="xsd:string">Email</value>
+        <value xsi:type="xsd:string">MailingAddress</value>
     </values>
     <values>
         <field>FlowToolKit__fieldPrompt__c</field>
@@ -296,7 +296,7 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">5.0</value>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>FlowToolKit__prepend__c</field>
@@ -364,11 +364,11 @@
     </values>
     <values>
         <field>FlowToolKit__widthLarge__c</field>
-        <value xsi:type="xsd:string">5</value>
+        <value xsi:type="xsd:string">12</value>
     </values>
     <values>
         <field>FlowToolKit__widthMedium__c</field>
-        <value xsi:type="xsd:string">5</value>
+        <value xsi:type="xsd:string">12</value>
     </values>
     <values>
         <field>FlowToolKit__widthSmall__c</field>

@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Waiver</value>
+        <value xsi:type="xsd:string">Volunteer_New_Volunteer_Group</value>
     </values>
     <values>
         <field>FlowToolKit__PreventDelete__c</field>
@@ -116,11 +116,11 @@
     </values>
     <values>
         <field>FlowToolKit__marginBottom__c</field>
-        <value xsi:type="xsd:string">slds-m-bottom_xx-small</value>
+        <value xsi:type="xsd:string">slds-m-bottom_none</value>
     </values>
     <values>
         <field>FlowToolKit__marginTop__c</field>
-        <value xsi:type="xsd:string">slds-m-top_small</value>
+        <value xsi:type="xsd:string">slds-m-top_x-small</value>
     </values>
     <values>
         <field>FlowToolKit__paddingBottom__c</field>
@@ -140,7 +140,7 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">1.0</value>
+        <value xsi:type="xsd:double">2.0</value>
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>

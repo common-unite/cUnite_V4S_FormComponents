@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Account Name</label>
+    <label>Billing City</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Delete__c</field>
@@ -8,11 +8,11 @@
     </values>
     <values>
         <field>FlowToolKit__Form_Section__c</field>
-        <value xsi:type="xsd:string">Volunteer_New_Volunter_Group_Questions</value>
+        <value xsi:type="xsd:string">Volunteer_New_Volunteer_Group_Address</value>
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">Volunteer_New_Volunter_Group</value>
+        <value xsi:type="xsd:string">Volunteer_New_Volunteer_Group</value>
     </values>
     <values>
         <field>FlowToolKit__Object__c</field>
@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>FlowToolKit__addressFieldType__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">City</value>
     </values>
     <values>
         <field>FlowToolKit__alignAbsoluteCenter__c</field>
@@ -120,7 +120,7 @@
     </values>
     <values>
         <field>FlowToolKit__customLabel__c</field>
-        <value xsi:type="xsd:string">Name of Volunteer Group</value>
+        <value xsi:type="xsd:string">Mailing City</value>
     </values>
     <values>
         <field>FlowToolKit__customLookupHeader__c</field>
@@ -156,7 +156,7 @@
     </values>
     <values>
         <field>FlowToolKit__fieldName__c</field>
-        <value xsi:type="xsd:string">Name</value>
+        <value xsi:type="xsd:string">BillingCity</value>
     </values>
     <values>
         <field>FlowToolKit__fieldPrompt__c</field>
@@ -279,6 +279,10 @@
         <value xsi:nil="true"/>
     </values>
     <values>
+        <field>FlowToolKit__phoneMask__c</field>
+        <value xsi:type="xsd:string">(xxx) xxx-xxxx</value>
+    </values>
+    <values>
         <field>FlowToolKit__picklistColumnsSize__c</field>
         <value xsi:type="xsd:string">none</value>
     </values>
@@ -292,7 +296,7 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">1.0</value>
+        <value xsi:type="xsd:double">3.0</value>
     </values>
     <values>
         <field>FlowToolKit__prepend__c</field>
@@ -312,7 +316,7 @@
     </values>
     <values>
         <field>FlowToolKit__required__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>FlowToolKit__second__c</field>

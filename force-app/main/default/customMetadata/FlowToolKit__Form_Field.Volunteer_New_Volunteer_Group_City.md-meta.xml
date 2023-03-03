@@ -67,18 +67,6 @@
         <value xsi:nil="true"/>
     </values>
     <values>
-        <field>FlowToolKit__columnIconAlternativeText__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
-        <field>FlowToolKit__columnIconLabelFieldReference__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
-        <field>FlowToolKit__columnIconLabel__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
         <field>FlowToolKit__columnIconNameFieldReference__c</field>
         <value xsi:nil="true"/>
     </values>
@@ -271,14 +259,6 @@
         <value xsi:nil="true"/>
     </values>
     <values>
-        <field>FlowToolKit__parentSobjectNameField__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
-        <field>FlowToolKit__parentSobjectName__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
         <field>FlowToolKit__phoneMask__c</field>
         <value xsi:type="xsd:string">(xxx) xxx-xxxx</value>
     </values>
@@ -323,10 +303,6 @@
         <value xsi:nil="true"/>
     </values>
     <values>
-        <field>FlowToolKit__step__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
         <field>FlowToolKit__textAreaMaxHeight__c</field>
         <value xsi:nil="true"/>
     </values>
@@ -352,10 +328,6 @@
     </values>
     <values>
         <field>FlowToolKit__validationFormat__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
-        <field>FlowToolKit__value__c</field>
         <value xsi:nil="true"/>
     </values>
     <values>

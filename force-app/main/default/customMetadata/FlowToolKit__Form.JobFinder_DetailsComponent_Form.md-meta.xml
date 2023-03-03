@@ -31,10 +31,6 @@
         <value xsi:type="xsd:string">cUnite_Volunteer_Forms_Theme</value>
     </values>
     <values>
-        <field>FlowToolKit__displaySectionsAsAccordion__c</field>
-        <value xsi:type="xsd:boolean">false</value>
-    </values>
-    <values>
         <field>FlowToolKit__horizontalAlign__c</field>
         <value xsi:type="xsd:string">spread</value>
     </values>

@@ -35,24 +35,8 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
-        <field>FlowToolKit__backgroundColor__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
-        <field>FlowToolKit__backgroundImageHeader__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
-        <field>FlowToolKit__backgroundImageSection__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
         <field>FlowToolKit__conditionalLogic__c</field>
         <value xsi:nil="true"/>
-    </values>
-    <values>
-        <field>FlowToolKit__contentAssetIsSVG__c</field>
-        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>FlowToolKit__contentAssetName__c</field>
@@ -75,10 +59,6 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
-        <field>FlowToolKit__fontColor__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
         <field>FlowToolKit__formComponent__c</field>
         <value xsi:type="xsd:string">JobFinder_DetailsPanel_Form</value>
     </values>
@@ -93,10 +73,6 @@
     <values>
         <field>FlowToolKit__horizontalPadding__c</field>
         <value xsi:type="xsd:string">slds-p-horizontal_none</value>
-    </values>
-    <values>
-        <field>FlowToolKit__iconColor__c</field>
-        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__iconName__c</field>

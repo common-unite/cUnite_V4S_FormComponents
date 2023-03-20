@@ -71,7 +71,7 @@ flows:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/post
-                    extra: -r force-app-forms
+                    extra: -r force-app
             1.1:
                 task: deploy_volunteer_forms_elements
 

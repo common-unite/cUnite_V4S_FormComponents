@@ -75,6 +75,16 @@ flows:
             1.1:
                 task: deploy_volunteer_forms_elements
 
+    deploy_post_package_namespaced:
+        steps:
+            1:
+                task: dx_convert_from
+                options:
+                    src_dir: unpackaged/config/post
+                    extra: -r force-app
+            1.1:
+                task: deploy_volunteer_forms_elements_namespaced
+
 tasks:
 
     deploy_contact_object:
@@ -124,6 +134,13 @@ tasks:
         class_path: cumulusci.tasks.salesforce.Deploy
         options:
             path: unpackaged/config/post
+
+    deploy_volunteer_forms_elements_namespaced:
+        description: Deploys Volunteer Forms to Environment
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: unpackaged/config/post
+            namespace_inject: true
 
     create_package_version:
         options:

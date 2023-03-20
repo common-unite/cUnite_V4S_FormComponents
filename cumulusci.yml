@@ -12,6 +12,23 @@ project:
 
 
 flows:
+    deploy_prod:
+        steps:
+            1:
+                task: update_dependencies
+            2:
+                task: deploy_pre
+                options:
+                    path: unpackages/pre
+            3:
+                flow: deploy_pre_package
+            4:
+                flow: convert_unpacked_metadata
+            5:
+                task: deploy_volunteer_forms_elements
+                options:
+                    unmanaged: true
+
     deploy_pre_package:
         steps:
             1:

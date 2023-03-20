@@ -17,16 +17,36 @@ flows:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/formObjects/contact
-                    extra: -r unpackaged/objects/contact
+                    extra: -r unpackaged/force-app-unlocked -x unpackaged/manifest/contact.xml
             1.1:
                 task: deploy_contact_object
             2:
+                task: dx_convert_from
+                options:
+                    src_dir: unpackaged/config/formObjects/lead
+                    extra: -r unpackaged/force-app-unlocked -x unpackaged/manifest/lead.xml
+            2.1:
                 task: deploy_lead_object
             3:
+                task: dx_convert_from
+                options:
+                    src_dir: unpackaged/config/formObjects/volunteerHours
+                    extra: -r unpackaged/force-app-unlocked -x unpackaged/manifest/volunteerHours.xml
+            3.1:
                 task: deploy_volunteerHours_object
             4:
+                task: dx_convert_from
+                options:
+                    src_dir: unpackaged/config/formObjects/volunteerJob
+                    extra: -r unpackaged/force-app-unlocked -x unpackaged/manifest/volunteerJob.xml
+            4.1:
                 task: deploy_volunteerJob_object
             5:
+                task: dx_convert_from
+                options:
+                    src_dir: unpackaged/config/formObjects/volunteerShift
+                    extra: -r unpackaged/force-app-unlocked -x unpackaged/manifest/volunteerShift.xml
+            5.1:
                 task: deploy_volunteerShift_object
 
 tasks:

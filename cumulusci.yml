@@ -14,6 +14,11 @@ flows:
     deploy_form_objects_config:
         steps:
             1:
+                task: dx_convert_from
+                options:
+                    src_dir: unpackaged/config/formObjects/contact
+                    extra: -r unpackaged/objects/contact
+            1.1:
                 task: deploy_contact_object
             2:
                 task: deploy_lead_object

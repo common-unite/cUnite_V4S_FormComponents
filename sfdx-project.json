@@ -1,7 +1,31 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app-unlocked",
+      "path": "unpackaged/objects/contact",
+      "default": false
+    },
+    {
+      "path": "unpackaged/objects/lead",
+      "default": false
+    },
+    {
+      "path": "unpackaged/objects/volunteerHours",
+      "default": false
+    },
+    {
+      "path": "unpackaged/objects/volunteerJob",
+      "default": false
+    },
+    {
+      "path": "unpackaged/objects/volunteerShift",
+      "default": false
+    },
+    {
+      "path": "unpackaged/force-app-unlocked",
+      "default": true
+    },
+    {
+      "path": "unpackaged/force-app-unlocked",
       "default": true
     },
     {

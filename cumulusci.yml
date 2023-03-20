@@ -9,7 +9,53 @@ project:
     git:
     source_format: sfdx
 
+
+flows:
+    deploy_form_objects_config:
+        steps:
+            1:
+                task: deploy_contact_object
+            2:
+                task: deploy_lead_object
+            3:
+                task: deploy_volunteerHours_object
+            4:
+                task: deploy_volunteerJob_object
+            5:
+                task: deploy_volunteerShift_object
+
 tasks:
+
+    deploy_contact_object:
+        description: Deploys Form Objects to Environment
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: unpackaged/config/formObjects/contact
+
+    deploy_lead_object:
+        description: Deploys Form Objects to Environment
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: unpackaged/config/formObjects/lead
+
+    deploy_volunteerHours_object:
+        description: Deploys Form Objects to Environment
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: unpackaged/config/formObjects/volunteerHours
+
+    deploy_volunteerJob_object:
+        description: Deploys Form Objects to Environment
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: unpackaged/config/formObjects/volunteerJob
+
+    deploy_volunteerShift_object:
+        description: Deploys Form Objects to Environment
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: unpackaged/config/formObjects/volunteerShift
+
     create_package_version:
         options:
             package_type: Unlocked

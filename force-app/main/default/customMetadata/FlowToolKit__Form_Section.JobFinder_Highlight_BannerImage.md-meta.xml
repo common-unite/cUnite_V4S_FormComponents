@@ -40,7 +40,7 @@
     </values>
     <values>
         <field>FlowToolKit__contentAssetName__c</field>
-        <value xsi:type="xsd:string">FlowToolKit_VolunteersHandsIn</value>
+        <value xsi:type="xsd:string">%%%NAMESPACE%%%FlowToolKit_VolunteersHandsIn</value>
     </values>
     <values>
         <field>FlowToolKit__description__c</field>
@@ -88,7 +88,7 @@
     </values>
     <values>
         <field>FlowToolKit__imageOverrideFieldApiName__c</field>
-        <value xsi:type="xsd:string">cUnite_Banner_Image_URL__c</value>
+        <value xsi:type="xsd:string">%%%NAMESPACE%%%cUnite_Banner_Image_URL__c</value>
     </values>
     <values>
         <field>FlowToolKit__marginBottom__c</field>

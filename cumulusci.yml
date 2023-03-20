@@ -3,6 +3,7 @@ project:
     name: cUnite_V4S_FormComponents
     package:
         name: "Flow Tool Kit: V4S Ext | Unlocked"
+        namespace: FlowToolKit
         api_version: '55.0'
     dependencies:
         - github: 'https://github.com/common-unite/FormBuilder_V4SF'
@@ -65,25 +66,13 @@ flows:
             7.1:
                 task: deploy_volunteer_forms
 
-    deploy_post_package:
+    convert_unpacked_metadata:
         steps:
             1:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/post
                     extra: -r force-app
-            1.1:
-                task: deploy_volunteer_forms_elements
-
-    deploy_post_package_namespaced:
-        steps:
-            1:
-                task: dx_convert_from
-                options:
-                    src_dir: unpackaged/config/post
-                    extra: -r force-app
-            1.1:
-                task: deploy_volunteer_forms_elements_namespaced
 
 tasks:
 
@@ -140,7 +129,7 @@ tasks:
         class_path: cumulusci.tasks.salesforce.Deploy
         options:
             path: unpackaged/config/post
-            namespace_inject: true
+            namespace_inject: $project_config.project__package__namespace
 
     create_package_version:
         options:

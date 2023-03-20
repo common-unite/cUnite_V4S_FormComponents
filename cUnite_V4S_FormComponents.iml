@@ -21,11 +21,9 @@
       <sourceFolder url="file://$MODULE_DIR$/config" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/force-app/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unpackaged/force-app-unlocked/main/default" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/unpackaged/objects/contact/main/default" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/unpackaged/objects/lead/main/default" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/unpackaged/objects/volunteerHours/main/default" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/unpackaged/objects/volunteerJob/main/default" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/unpackaged/objects/volunteerShift/main/default" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/force-app-forms/main/default" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/force-app-objects/main/default" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/force-app-themes/main/default" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="IlluminatedCloud (cUnite_V4S_FormComponents/cUnite_V4S_FormComponents__dev)" jdkType="IlluminatedCloud" />
     <orderEntry type="sourceFolder" forTests="false" />

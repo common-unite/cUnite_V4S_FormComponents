@@ -17,38 +17,53 @@ flows:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/formObjects/contact
-                    extra: -r unpackaged/force-app-unlocked -p unpackaged/force-app-unlocked/main/default/customMetadata/FlowToolKit__Form_Object.Contact.md-meta.xml
+                    extra: -p force-app-objects/main/default/customMetadata/FlowToolKit__Form_Object.Contact.md-meta.xml
             1.1:
                 task: deploy_contact_object
             2:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/formObjects/lead
-                    extra: -r unpackaged/force-app-unlocked -p unpackaged/force-app-unlocked/main/default/customMetadata/FlowToolKit__Form_Object.Lead.md-meta.xml
+                    extra: -p force-app-objects/main/default/customMetadata/FlowToolKit__Form_Object.Lead.md-meta.xml
             2.1:
                 task: deploy_lead_object
             3:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/formObjects/volunteerHours
-                    extra: -r unpackaged/force-app-unlocked -p unpackaged/force-app-unlocked/main/default/customMetadata/FlowToolKit__Form_Object.Volunteer_Hours.md-meta.xml
+                    extra: -p force-app-objects/main/default/customMetadata/FlowToolKit__Form_Object.Volunteer_Hours.md-meta.xml
             3.1:
                 task: deploy_volunteerHours_object
             4:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/formObjects/volunteerJob
-                    extra: -r unpackaged/force-app-unlocked -p unpackaged/force-app-unlocked/main/default/customMetadata/FlowToolKit__Form_Object.Volunteer_Job.md-meta.xml
+                    extra: -p force-app-objects/main/default/customMetadata/FlowToolKit__Form_Object.Volunteer_Job.md-meta.xml
             4.1:
                 task: deploy_volunteerJob_object
             5:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/formObjects/volunteerShift
-                    extra: -r unpackaged/force-app-unlocked -p unpackaged/force-app-unlocked/main/default/customMetadata/FlowToolKit__Form_Object.Volunteer_Shift.md-meta.xml
+                    extra: -p force-app-objects/main/default/customMetadata/FlowToolKit__Form_Object.Volunteer_Shift.md-meta.xml
 
             5.1:
                 task: deploy_volunteerShift_object
+            6:
+                task: dx_convert_from
+                options:
+                    src_dir: unpackaged/config/themes
+                    extra: -x unpackaged/manifest/themes/package.xml
+                6.1:
+                    task: deploy_volunteer_form_themes
+
+            7:
+                task: dx_convert_from
+                options:
+                    src_dir: unpackaged/config/forms
+                    extra: -r force-app-forms
+                7.1:
+                    task: deploy_volunteer_forms
 
 tasks:
 
@@ -81,6 +96,18 @@ tasks:
         class_path: cumulusci.tasks.salesforce.Deploy
         options:
             path: unpackaged/config/formObjects/volunteerShift
+
+    deploy_volunteer_form_themes:
+        description: Deploys Volunteer Themes to Environment
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: unpackaged/config/themes
+
+    deploy_volunteer_forms:
+        description: Deploys Volunteer Forms to Environment
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: unpackaged/config/forms
 
     create_package_version:
         options:

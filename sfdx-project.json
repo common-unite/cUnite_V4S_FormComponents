@@ -1,36 +1,24 @@
 {
   "packageDirectories": [
     {
-      "path": "unpackaged/objects/contact",
+      "path": "force-app-objects",
       "default": false
     },
     {
-      "path": "unpackaged/objects/lead",
+      "path": "force-app-themes",
       "default": false
     },
     {
-      "path": "unpackaged/objects/volunteerHours",
+      "path": "force-app-forms",
       "default": false
-    },
-    {
-      "path": "unpackaged/objects/volunteerJob",
-      "default": false
-    },
-    {
-      "path": "unpackaged/objects/volunteerShift",
-      "default": false
-    },
-    {
-      "path": "unpackaged/force-app-unlocked",
-      "default": true
-    },
-    {
-      "path": "unpackaged/force-app-unlocked",
-      "default": true
     },
     {
       "path": "force-app",
       "default": false
+    },
+    {
+      "path": "unpackaged/force-app-unlocked",
+      "default": true
     }
   ],
   "name": "cUnite_V4S_FormComponents",

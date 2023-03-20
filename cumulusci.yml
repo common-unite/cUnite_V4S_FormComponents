@@ -54,16 +54,16 @@ flows:
                 options:
                     src_dir: unpackaged/config/themes
                     extra: -x unpackaged/manifest/themes/package.xml
-                6.1:
-                    task: deploy_volunteer_form_themes
+            6.1:
+                task: deploy_volunteer_form_themes
 
             7:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/forms
                     extra: -r force-app-forms
-                7.1:
-                    task: deploy_volunteer_forms
+            7.1:
+                task: deploy_volunteer_forms
 
 tasks:
 

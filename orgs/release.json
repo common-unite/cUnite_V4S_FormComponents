@@ -1,7 +1,11 @@
 {
   "orgName": "Flow Tool Kit: V4S Form Components - Release Test Org",
   "edition": "Enterprise",
+  "features": ["Communities"],
   "settings": {
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
@@ -16,5 +20,6 @@
       "sessionSettings": {
         "forceRelogin": false
       }
-    }  }
+    }
+  }
 }

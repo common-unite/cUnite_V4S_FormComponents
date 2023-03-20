@@ -12,6 +12,16 @@ project:
 
 
 flows:
+    deploy_unmanaged:
+        steps:
+            1.1:
+                flow: deploy_pre_package
+            7.1:
+                task: deploy_volunteer_forms
+                options:
+                    unmanaged: true
+
+
     deploy_prod:
         steps:
             1:

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Job Details Component</label>
+    <protected>false</protected>
+    <values>
+        <field>FlowToolKit__Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>FlowToolKit__Delete__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>FlowToolKit__DemoRecord__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>FlowToolKit__Description__c</field>
+        <value xsi:type="xsd:string">This Component is used to display details about the Volunteer Job.</value>
+    </values>
+    <values>
+        <field>FlowToolKit__Form_Managers__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FlowToolKit__Form_Object__c</field>
+        <value xsi:type="xsd:string">Volunteer_Job</value>
+    </values>
+    <values>
+        <field>FlowToolKit__Theme__c</field>
+        <value xsi:type="xsd:string">cUnite_Volunteer_Forms_Theme</value>
+    </values>
+    <values>
+        <field>FlowToolKit__horizontalAlign__c</field>
+        <value xsi:type="xsd:string">spread</value>
+    </values>
+    <values>
+        <field>FlowToolKit__prefill__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FlowToolKit__type__c</field>
+        <value xsi:type="xsd:string">form</value>
+    </values>
+    <values>
+        <field>FlowToolKit__verticalAlign__c</field>
+        <value xsi:type="xsd:string">start</value>
+    </values>
+    <values>
+        <field>FlowToolKit__widthLarge__c</field>
+        <value xsi:type="xsd:string">12</value>
+    </values>
+    <values>
+        <field>FlowToolKit__widthMedium__c</field>
+        <value xsi:type="xsd:string">12</value>
+    </values>
+    <values>
+        <field>FlowToolKit__widthSmall__c</field>
+        <value xsi:type="xsd:string">12</value>
+    </values>
+</CustomMetadata>

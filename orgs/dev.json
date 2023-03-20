@@ -1,7 +1,11 @@
 {
   "orgName": "Flow Tool Kit: V4S Form Components - Dev Org",
   "edition": "Developer",
+  "features": ["Communities"],
   "settings": {
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },

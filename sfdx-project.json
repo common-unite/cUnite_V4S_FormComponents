@@ -9,12 +9,20 @@
       "default": false
     },
     {
+      "path": "force-app-contentAssets",
+      "default": false
+    },
+    {
       "path": "force-app-forms",
       "default": false
     },
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "force-app-layouts",
+      "default": false
     }
   ],
   "name": "cUnite_V4S_FormComponents",

@@ -21,7 +21,9 @@
       <sourceFolder url="file://$MODULE_DIR$/config" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/force-app/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unpackaged/force-app-unlocked/main/default" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/force-app-contentAssets/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/force-app-forms/main/default" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/force-app-layouts/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/force-app-objects/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/force-app-themes/main/default" isTestSource="false" />
     </content>

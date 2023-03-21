@@ -99,7 +99,7 @@ flows:
                     src_dir: unpackaged/config/contentAssets
                     extra: -r force-app-contentAssets
             8.1:
-                task: deploy_volunteer_forms
+                task: deploy_content_assets
 
     deploy_volunteer_layouts:
         steps:
@@ -109,7 +109,7 @@ flows:
                     src_dir: unpackaged/config/layouts
                     extra: -r force-app-layouts
             1.1:
-                task: deploy_volunteer_forms
+                task: deploy_volunteer_layouts
 
 
     convert_unpacked_metadata:
@@ -164,7 +164,7 @@ tasks:
         options:
             path: unpackaged/config/contentAssets
 
-    deploy_content_layouts:
+    deploy_volunteer_layouts:
         description: Deploys Volunteer Forms to Environment
         class_path: cumulusci.tasks.salesforce.Deploy
         options:

@@ -3,9 +3,9 @@
   <component name="FacetManager">
     <facet type="IlluminatedCloud" name="Illuminated Cloud">
       <configuration>
-        <option name="connectionName" value="cUnite_V4S_FormComponents__dev" />
+        <option name="connectionName" value="cUnite_V4S_FormComponents" />
         <option name="connectionType" value="SFDX" />
-        <option name="defaultSourceRootUrl" value="file://$MODULE_DIR$/unpackaged/force-app-unlocked/main/default" />
+        <option name="defaultSourceRootUrl" value="file://$MODULE_DIR$/force-app/main/default" />
         <option name="moduleContents">
           <ModuleContents>
             <option name="contentSelectionType" value="PACKAGE_XML" />
@@ -20,12 +20,14 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/config" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/force-app/main/default" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/unpackaged/force-app-unlocked/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/force-app-contentAssets/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/force-app-forms/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/force-app-layouts/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/force-app-objects/main/default" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/force-app-themes/main/default" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/force-app-unlocked/main/default" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/force-app-datetime-sync-npsp/main/default" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/force-app-datetime-sync/main/default" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="IlluminatedCloud (cUnite_V4S_FormComponents/cUnite_V4S_FormComponents__dev)" jdkType="IlluminatedCloud" />
     <orderEntry type="sourceFolder" forTests="false" />

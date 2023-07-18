@@ -4,10 +4,9 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="cUnite_V4S_FormComponents__dev" />
+          <option name="connectionName" value="cUnite_V4S_FormComponents" />
           <option name="connectionType" value="SFDX" />
           <option name="defaultModuleName" value="cUnite_V4S_FormComponents" />
-          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/cUnite_V4S_FormComponents__dev/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>

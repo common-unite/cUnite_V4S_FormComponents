@@ -10,6 +10,9 @@ project:
     git:
     source_format: sfdx
 
+sources:
+    source_date_time_sync:
+        github: 'https://github.com/common-unite/Date_Time_Sync_Public'
 
 flows:
     deploy_unmanaged:
@@ -21,23 +24,24 @@ flows:
                 options:
                     unmanaged: true
 
-
-    deploy_prod:
+    deploy_all:
         steps:
             1:
                 task: update_dependencies
             2:
                 task: deploy_pre
                 options:
-                    path: unpackages/pre
+                    path: unpackaged/pre
             3:
                 flow: deploy_pre_package
             4:
-                flow: convert_unpacked_metadata
+                flow: deploy_unlocked_metadata
             5:
-                task: deploy_volunteer_forms_elements
-                options:
-                    unmanaged: true
+                flow: deploy_datetime_sync_post
+            6:
+                flow: deploy_volunteer_layouts
+            7:
+                task: load_sample_data
 
     deploy_pre_package:
         steps:
@@ -81,7 +85,7 @@ flows:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/themes
-                    extra: -x unpackaged/manifest/themes/package.xml
+                    extra: -r force-app-themes
             6.1:
                 task: deploy_volunteer_form_themes
 
@@ -111,14 +115,37 @@ flows:
             1.1:
                 task: deploy_volunteer_layouts
 
-
-    convert_unpacked_metadata:
+    deploy_unlocked_metadata:
         steps:
             1:
                 task: dx_convert_from
                 options:
                     src_dir: unpackaged/config/post
                     extra: -r force-app
+            2:
+                task: deploy_unpackaged_post
+                options:
+                    unmanaged: true
+            3:
+                task: assign_permission_sets
+                options:
+                    api_names: cUnite_Form_Flow_V4S_Admin,Form_Builder_Admin,cUnite_Form_Flow_V4S_User,Form_Flow_User
+
+    deploy_datetime_sync_post:
+        steps:
+            1:
+                task: source_date_time_sync:install_managed
+            2:
+                task: dx_convert_from
+                options:
+                    src_dir: unpackaged/config/date_time_post
+                    extra: -r force-app-datetime-sync
+            3:
+                task: deploy_datetime_sync_post
+                options:
+                    unmanaged: true
+
+
 
 tasks:
 
@@ -170,19 +197,25 @@ tasks:
         options:
             path: unpackaged/config/layouts
 
+    deploy_datetime_sync_post:
+        description: Deploys DateTime Sync components to Environment
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: unpackaged/config/date_time_post
+
     deploy_volunteer_forms:
         description: Deploys Volunteer Forms to Environment
         class_path: cumulusci.tasks.salesforce.Deploy
         options:
             path: unpackaged/config/forms
 
-    deploy_volunteer_forms_elements:
+    deploy_unpackaged_post:
         description: Deploys Volunteer Forms to Environment
         class_path: cumulusci.tasks.salesforce.Deploy
         options:
             path: unpackaged/config/post
 
-    deploy_volunteer_forms_elements_namespaced:
+    deploy_unpacked_post_namespaced:
         description: Deploys Volunteer Forms to Environment
         class_path: cumulusci.tasks.salesforce.Deploy
         options:

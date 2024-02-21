@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>cUnite_Banner_Image_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( ISBLANK(cUnite_Banner_Image__c),&apos;&apos;,
+
+IF( CONTAINS($Api.Enterprise_Server_URL_100,&apos;/sfsites/c&apos;),
+
+&apos;/sfsites/c&apos;+cUnite_Banner_Image__c,
+
+LEFT($Api.Enterprise_Server_URL_100,FIND(&apos;/services/Soap/&apos;, $Api.Enterprise_Server_URL_100)-1)+cUnite_Banner_Image__c
+
+))</formula>
+        <label>Banner Image URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cUnite_Banner_Image__c</fullName>
+        <externalId>false</externalId>
+        <label>Banner Image</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cUnite_Job_Finder_Badge_Open_to_Groups__c</fullName>
+        <description>Use this HTML output within your form components to display a badge/tag with the label &quot;Open to Groups!&quot;</description>
+        <externalId>false</externalId>
+        <formula>if(Not(INCLUDES(FlowToolKit__cUnite_Volunteer_Types__c,&apos;Groups&apos;)),&apos;&apos;,
+
+/*** You can Customize the HTML and CSS below ***/
+
+&apos;&lt;span style=&quot;top:10px; left:10px; font-size:0.6rem;&quot; class=&quot;slds-is-absolute slds-badge slds-badge_light&quot;&gt;Open to Groups!&lt;/span&gt;&apos;
+
+)</formula>
+        <label>Job Finder Badge (Open to Groups)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cUnite_Job_Finder_Campaign_Event_Name__c</fullName>
+        <description>This can be used to create a link to the related Campaign within your form components.</description>
+        <externalId>false</externalId>
+        <formula>GW_Volunteers__Campaign__r.Name</formula>
+        <label>Job Finder (Campaign/Event Name)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cUnite_Job_Finder_Campaign_URL__c</fullName>
+        <description>This can be used to create links to the related Campaign. This allows the Job Finder to work internally and within portal pages.</description>
+        <externalId>false</externalId>
+        <formula>LEFT($Api.Enterprise_Server_URL_100,FIND(&apos;/services/Soap/&apos;, $Api.Enterprise_Server_URL_100)) +&apos;/&apos;+CASESAFEID(GW_Volunteers__Campaign__c)</formula>
+        <label>Job Finder (Campaign URL)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

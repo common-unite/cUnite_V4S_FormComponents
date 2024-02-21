@@ -35,7 +35,7 @@ flows:
             3:
                 flow: deploy_pre_package
             4:
-                flow: deploy_unlocked_metadata
+                flow: deploy_optional_meta
             5:
                 flow: deploy_datetime_sync_post
             6:
@@ -115,7 +115,7 @@ flows:
             1.1:
                 task: deploy_volunteer_layouts
 
-    deploy_unlocked_metadata:
+    deploy_optional_meta:
         steps:
             1:
                 task: dx_convert_from
@@ -186,13 +186,13 @@ tasks:
             path: unpackaged/config/themes
 
     deploy_content_assets:
-        description: Deploys Volunteer Forms to Environment
+        description: Deploys Volunteer Demo ContentAssets to Environment
         class_path: cumulusci.tasks.salesforce.Deploy
         options:
             path: unpackaged/config/contentAssets
 
     deploy_volunteer_layouts:
-        description: Deploys Volunteer Forms to Environment
+        description: Deploys Volunteer Layouts to Environment
         class_path: cumulusci.tasks.salesforce.Deploy
         options:
             path: unpackaged/config/layouts

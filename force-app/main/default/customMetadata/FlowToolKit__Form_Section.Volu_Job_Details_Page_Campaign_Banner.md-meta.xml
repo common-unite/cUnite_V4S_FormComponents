@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Job Details</label>
+    <label>Campaign Banner</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Custom_CSS_Style__c</field>
@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Header</value>
+        <value xsi:type="xsd:string">Volu_Job_Details_Page</value>
     </values>
     <values>
         <field>FlowToolKit__PreventDelete__c</field>
@@ -52,7 +52,11 @@
     </values>
     <values>
         <field>FlowToolKit__enableAccordion__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>FlowToolKit__flowApiName__c</field>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>FlowToolKit__formComponent__c</field>
@@ -68,7 +72,7 @@
     </values>
     <values>
         <field>FlowToolKit__horizontalPadding__c</field>
-        <value xsi:type="xsd:string">slds-p-horizontal_xx-small</value>
+        <value xsi:type="xsd:string">slds-p-horizontal_none</value>
     </values>
     <values>
         <field>FlowToolKit__iconName__c</field>
@@ -112,7 +116,7 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">2.0</value>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>
@@ -128,7 +132,7 @@
     </values>
     <values>
         <field>FlowToolKit__showHeader__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>FlowToolKit__subtitle__c</field>
@@ -136,7 +140,7 @@
     </values>
     <values>
         <field>FlowToolKit__title__c</field>
-        <value xsi:type="xsd:string">Job Details</value>
+        <value xsi:type="xsd:string">Campaign Banner</value>
     </values>
     <values>
         <field>FlowToolKit__viewAsPlainText__c</field>

@@ -3,6 +3,14 @@
     <label>Start Date</label>
     <protected>false</protected>
     <values>
+        <field>FlowToolKit__Alternative_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FlowToolKit__Alternative_Object__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__Delete__c</field>
         <value xsi:type="xsd:boolean">false</value>
     </values>
@@ -175,10 +183,6 @@
         <value xsi:type="xsd:string">small</value>
     </values>
     <values>
-        <field>FlowToolKit__isAccessible__c</field>
-        <value xsi:type="xsd:boolean">true</value>
-    </values>
-    <values>
         <field>FlowToolKit__labelAlignAbsoluteCenter__c</field>
         <value xsi:type="xsd:boolean">false</value>
     </values>
@@ -295,8 +299,20 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
+        <field>FlowToolKit__referenceFieldOverrideType__c</field>
+        <value xsi:type="xsd:string">standard</value>
+    </values>
+    <values>
+        <field>FlowToolKit__referenceFormComponent__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__required__c</field>
         <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>FlowToolKit__richTextType__c</field>
+        <value xsi:type="xsd:string">standard</value>
     </values>
     <values>
         <field>FlowToolKit__second__c</field>

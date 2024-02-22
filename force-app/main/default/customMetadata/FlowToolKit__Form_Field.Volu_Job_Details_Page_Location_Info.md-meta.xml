@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Description</label>
+    <label>Location Information</label>
     <protected>false</protected>
+    <values>
+        <field>FlowToolKit__Alternative_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FlowToolKit__Alternative_Object__c</field>
+        <value xsi:nil="true"/>
+    </values>
     <values>
         <field>FlowToolKit__Delete__c</field>
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>FlowToolKit__Form_Section__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Header_JobDetails</value>
+        <value xsi:type="xsd:string">Volu_Job_Details_Page_Location_Details</value>
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Header</value>
+        <value xsi:type="xsd:string">Volu_Job_Details_Page</value>
     </values>
     <values>
         <field>FlowToolKit__Object__c</field>
@@ -144,7 +152,7 @@
     </values>
     <values>
         <field>FlowToolKit__fieldName__c</field>
-        <value xsi:type="xsd:string">GW_Volunteers__Description__c</value>
+        <value xsi:type="xsd:string">GW_Volunteers__Location_Information__c</value>
     </values>
     <values>
         <field>FlowToolKit__fieldPrompt__c</field>
@@ -175,10 +183,6 @@
         <value xsi:type="xsd:string">small</value>
     </values>
     <values>
-        <field>FlowToolKit__isAccessible__c</field>
-        <value xsi:type="xsd:boolean">true</value>
-    </values>
-    <values>
         <field>FlowToolKit__labelAlignAbsoluteCenter__c</field>
         <value xsi:type="xsd:boolean">false</value>
     </values>
@@ -200,7 +204,7 @@
     </values>
     <values>
         <field>FlowToolKit__maxDateType__c</field>
-        <value xsi:type="xsd:string">specificDate</value>
+        <value xsi:type="xsd:string">specific</value>
     </values>
     <values>
         <field>FlowToolKit__maxDays__c</field>
@@ -228,7 +232,7 @@
     </values>
     <values>
         <field>FlowToolKit__minDateType__c</field>
-        <value xsi:type="xsd:string">specificDate</value>
+        <value xsi:type="xsd:string">specific</value>
     </values>
     <values>
         <field>FlowToolKit__minDays__c</field>
@@ -295,8 +299,20 @@
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
+        <field>FlowToolKit__referenceFieldOverrideType__c</field>
+        <value xsi:type="xsd:string">standard</value>
+    </values>
+    <values>
+        <field>FlowToolKit__referenceFormComponent__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__required__c</field>
         <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>FlowToolKit__richTextType__c</field>
+        <value xsi:type="xsd:string">standard</value>
     </values>
     <values>
         <field>FlowToolKit__second__c</field>

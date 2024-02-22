@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Job Details Component</label>
+    <label>Job Details (Tabset)</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Active__c</field>
@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>FlowToolKit__Description__c</field>
-        <value xsi:type="xsd:string">This Component is used to display details about the Volunteer Job.</value>
+        <value xsi:type="xsd:string">Group Job information within a tabset.</value>
     </values>
     <values>
         <field>FlowToolKit__Form_Managers__c</field>
@@ -36,7 +36,7 @@
     </values>
     <values>
         <field>FlowToolKit__horizontalAlign__c</field>
-        <value xsi:type="xsd:string">spread</value>
+        <value xsi:type="xsd:string">start</value>
     </values>
     <values>
         <field>FlowToolKit__prefill__c</field>
@@ -44,7 +44,7 @@
     </values>
     <values>
         <field>FlowToolKit__type__c</field>
-        <value xsi:type="xsd:string">form</value>
+        <value xsi:type="xsd:string">default</value>
     </values>
     <values>
         <field>FlowToolKit__verticalAlign__c</field>

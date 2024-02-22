@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Volunteer Group Application</label>
+    <label>Upcoming Shift Calendar</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Custom_CSS_Style__c</field>
@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Group_Signup</value>
+        <value xsi:type="xsd:string">Volu_Job_Details_Tabset</value>
     </values>
     <values>
         <field>FlowToolKit__PreventDelete__c</field>
@@ -36,7 +36,7 @@
     </values>
     <values>
         <field>FlowToolKit__conditionalLogic__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">Volu_Job_Tabset_Has_Shifts</value>
     </values>
     <values>
         <field>FlowToolKit__contentAssetName__c</field>
@@ -55,6 +55,10 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
+        <field>FlowToolKit__flowApiName__c</field>
+        <value xsi:type="xsd:string">FlowToolKit__Volunteer_Shift_Calendar</value>
+    </values>
+    <values>
         <field>FlowToolKit__formComponent__c</field>
         <value xsi:nil="true"/>
     </values>
@@ -68,11 +72,11 @@
     </values>
     <values>
         <field>FlowToolKit__horizontalPadding__c</field>
-        <value xsi:type="xsd:string">slds-p-horizontal_xx-small</value>
+        <value xsi:type="xsd:string">slds-p-horizontal_none</value>
     </values>
     <values>
         <field>FlowToolKit__iconName__c</field>
-        <value xsi:type="xsd:string">utility:groups</value>
+        <value xsi:type="xsd:string">utility:event</value>
     </values>
     <values>
         <field>FlowToolKit__imageOverlayColor__c</field>
@@ -112,7 +116,7 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">1.0</value>
+        <value xsi:type="xsd:double">2.0</value>
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>
@@ -124,11 +128,11 @@
     </values>
     <values>
         <field>FlowToolKit__sectionType__c</field>
-        <value xsi:type="xsd:string">inputSection</value>
+        <value xsi:type="xsd:string">flowScreen</value>
     </values>
     <values>
         <field>FlowToolKit__showHeader__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>FlowToolKit__subtitle__c</field>
@@ -136,7 +140,7 @@
     </values>
     <values>
         <field>FlowToolKit__title__c</field>
-        <value xsi:type="xsd:string">Volunteer Group Application</value>
+        <value xsi:type="xsd:string">Upcoming Shift Calendar</value>
     </values>
     <values>
         <field>FlowToolKit__viewAsPlainText__c</field>

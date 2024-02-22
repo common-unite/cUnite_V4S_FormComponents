@@ -7,6 +7,10 @@
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
+        <field>FlowToolKit__CategoryTag__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__Delete__c</field>
         <value xsi:type="xsd:boolean">false</value>
     </values>

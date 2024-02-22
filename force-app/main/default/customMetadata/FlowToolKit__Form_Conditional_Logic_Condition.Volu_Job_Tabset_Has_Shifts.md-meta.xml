@@ -8,11 +8,11 @@
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Lead_Qaulification</value>
+        <value xsi:type="xsd:string">Volu_Job_Details_Tabset</value>
     </values>
     <values>
         <field>FlowToolKit__Object__c</field>
-        <value xsi:type="xsd:string">Lead</value>
+        <value xsi:type="xsd:string">GW_Volunteers__Volunteer_Job__c</value>
     </values>
     <values>
         <field>FlowToolKit__UserValidation__c</field>
@@ -20,11 +20,11 @@
     </values>
     <values>
         <field>FlowToolKit__conditionalLogic__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Show_Vol_Waiver</value>
+        <value xsi:type="xsd:string">Volu_Job_Tabset_Has_Shifts</value>
     </values>
     <values>
         <field>FlowToolKit__fieldName__c</field>
-        <value xsi:type="xsd:string">cUnite_Age__c</value>
+        <value xsi:type="xsd:string">GW_Volunteers__Number_of_Shifts__c</value>
     </values>
     <values>
         <field>FlowToolKit__fieldType__c</field>
@@ -32,7 +32,7 @@
     </values>
     <values>
         <field>FlowToolKit__operation__c</field>
-        <value xsi:type="xsd:string">&gt;=</value>
+        <value xsi:type="xsd:string">&gt;</value>
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
@@ -40,6 +40,6 @@
     </values>
     <values>
         <field>FlowToolKit__value__c</field>
-        <value xsi:type="xsd:string">18</value>
+        <value xsi:type="xsd:string">0</value>
     </values>
 </CustomMetadata>

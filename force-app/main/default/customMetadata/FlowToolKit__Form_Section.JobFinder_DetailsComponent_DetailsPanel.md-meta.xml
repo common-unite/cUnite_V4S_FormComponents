@@ -55,6 +55,10 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
+        <field>FlowToolKit__flowApiName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__formComponent__c</field>
         <value xsi:type="xsd:string">JobFinder_DetailsPanel_Form</value>
     </values>
@@ -112,7 +116,7 @@
     </values>
     <values>
         <field>FlowToolKit__position__c</field>
-        <value xsi:type="xsd:double">3.0</value>
+        <value xsi:type="xsd:double">2.0</value>
     </values>
     <values>
         <field>FlowToolKit__richText__c</field>

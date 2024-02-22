@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Report Volunteer Hours</label>
+    <label>Job Overview</label>
     <protected>false</protected>
     <values>
         <field>FlowToolKit__Custom_CSS_Style__c</field>
@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>FlowToolKit__Form__c</field>
-        <value xsi:type="xsd:string">Volunteer_Application_Report_Hours</value>
+        <value xsi:type="xsd:string">Volu_Job_Details_Tabset</value>
     </values>
     <values>
         <field>FlowToolKit__PreventDelete__c</field>
@@ -55,8 +55,12 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
-        <field>FlowToolKit__formComponent__c</field>
+        <field>FlowToolKit__flowApiName__c</field>
         <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FlowToolKit__formComponent__c</field>
+        <value xsi:type="xsd:string">JobFinder_DetailsComponent_Form</value>
     </values>
     <values>
         <field>FlowToolKit__helpText__c</field>
@@ -72,7 +76,7 @@
     </values>
     <values>
         <field>FlowToolKit__iconName__c</field>
-        <value xsi:type="xsd:string">utility:date_time</value>
+        <value xsi:type="xsd:string">utility:info_alt</value>
     </values>
     <values>
         <field>FlowToolKit__imageOverlayColor__c</field>
@@ -124,7 +128,7 @@
     </values>
     <values>
         <field>FlowToolKit__sectionType__c</field>
-        <value xsi:type="xsd:string">inputSection</value>
+        <value xsi:type="xsd:string">formComponent</value>
     </values>
     <values>
         <field>FlowToolKit__showHeader__c</field>
@@ -136,7 +140,7 @@
     </values>
     <values>
         <field>FlowToolKit__title__c</field>
-        <value xsi:type="xsd:string">Report Volunteer Hours</value>
+        <value xsi:type="xsd:string">Job Overview</value>
     </values>
     <values>
         <field>FlowToolKit__viewAsPlainText__c</field>

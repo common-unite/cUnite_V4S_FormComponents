@@ -55,6 +55,10 @@
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
+        <field>FlowToolKit__flowApiName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>FlowToolKit__formComponent__c</field>
         <value xsi:nil="true"/>
     </values>

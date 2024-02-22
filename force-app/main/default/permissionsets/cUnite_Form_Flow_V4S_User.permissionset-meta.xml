@@ -90,6 +90,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Campaign.cUnite_Banner_Image_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.cUnite_Banner_Image__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Comments__c</field>
         <readable>true</readable>
@@ -195,11 +205,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Shift_Signup_Limit__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Shift_Day_of_the_Week_Badge__c</field>
         <readable>true</readable>
@@ -207,6 +212,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Shift_Range__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Shift_Signup_Limit__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -569,6 +579,18 @@
         <field>Lead.cUnite_Relationship__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>FlowToolKit__Volunteer_Job_Finder</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>FlowToolKit__Volunteer_Job_Shift_Signup_Form</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>FlowToolKit__Volunteer_Shift_Calendar</flow>
+    </flowAccesses>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Form (Flow V4S User)</label>
     <objectPermissions>

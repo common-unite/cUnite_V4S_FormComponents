@@ -180,7 +180,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Contact_FormQualifiedApiName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Featured__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Job_Page_FormQualifiedApiName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -186,7 +186,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Contact_FormQualifiedApiName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Featured__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Job_Page_FormQualifiedApiName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -215,7 +225,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>GW_Volunteers__Volunteer_Job__c.FlowToolKit__cUnite_Shift_Signup_Limit__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -304,7 +304,7 @@
     </values>
     <values>
         <field>FlowToolKit__referenceFormComponent__c</field>
-        <value xsi:type="xsd:string">Camp_Volunteer_Banner</value>
+        <value xsi:type="xsd:string">Camp_Banner_Header</value>
     </values>
     <values>
         <field>FlowToolKit__required__c</field>

@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>FlowToolKit__CategoryTag__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">Component(s)</value>
     </values>
     <values>
         <field>FlowToolKit__Delete__c</field>
@@ -40,7 +40,7 @@
     </values>
     <values>
         <field>FlowToolKit__prefill__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">{}</value>
     </values>
     <values>
         <field>FlowToolKit__type__c</field>

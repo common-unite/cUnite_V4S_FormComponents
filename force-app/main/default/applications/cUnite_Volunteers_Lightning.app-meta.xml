@@ -19,12 +19,13 @@
         <pageOrSobjectType>GW_Volunteers__Volunteer_Job__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Tab</actionName>
-        <content>cUnite_Volunteers_Home</content>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>cUnite_Volunteer_Shift_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <pageOrSobjectType>GW_Volunteers__Volunteer_Shift__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
@@ -36,13 +37,12 @@
         <pageOrSobjectType>GW_Volunteers__Volunteer_Shift__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>cUnite_Volunteer_Shift_Record_Page</content>
+        <actionName>Tab</actionName>
+        <content>cUnite_Volunteers_Home</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>GW_Volunteers__Volunteer_Shift__c</pageOrSobjectType>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>

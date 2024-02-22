@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>FlowToolKit__CategoryTag__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">Template(s)</value>
     </values>
     <values>
         <field>FlowToolKit__Delete__c</field>
@@ -40,7 +40,7 @@
     </values>
     <values>
         <field>FlowToolKit__prefill__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">{&quot;Salutation&quot;:null,&quot;FirstName&quot;:null,&quot;Name&quot;:&quot;&quot;,&quot;LastName&quot;:null,&quot;cUnite_Birthdate__c&quot;:null,&quot;cUnite_Age__c&quot;:null,&quot;GW_Volunteers__Volunteer_Availability__c&quot;:null,&quot;GW_Volunteers__Volunteer_Skills__c&quot;:null,&quot;GW_Volunteers__Volunteer_Notes__c&quot;:null,&quot;Phone&quot;:null,&quot;Email&quot;:null}</value>
     </values>
     <values>
         <field>FlowToolKit__type__c</field>

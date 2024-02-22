@@ -4,7 +4,7 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="cUnite_V4S_FormComponents" />
+          <option name="connectionName" value="cUnite_V4S_FormComponents__dev" />
           <option name="connectionType" value="SFDX" />
           <option name="defaultModuleName" value="cUnite_V4S_FormComponents" />
         </IlluminatedCloudConnection>
